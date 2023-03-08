@@ -1,0 +1,398 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify the calculation of two numbers",
+        "description": "",
+        "id": "verify-the-basic-operations-in-online-calculator;verify-the-calculation-of-two-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 541804300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9169435100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open chrome browser and start application",
+            "match": {
+              "location": "MainSteps.i_am_at_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4983865399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the values with desired operator \"4\" \"5\" \"+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 40
+                },
+                {
+                  "val": "5",
+                  "offset": 44
+                },
+                {
+                  "val": "+",
+                  "offset": 48
+                }
+              ],
+              "location": "MainSteps.enter_the_values_with_desired_operator(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1561161400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see the output as \"9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 39
+                }
+              ],
+              "location": "MainSteps.i_should_be_able_to_see_the_output_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify the calculation of two numbers",
+        "description": "",
+        "id": "verify-the-basic-operations-in-online-calculator;verify-the-calculation-of-two-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 708224501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12315993299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open chrome browser and start application",
+            "match": {
+              "location": "MainSteps.i_am_at_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1216820700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the values with desired operator \"6\" \"2\" \"-\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 40
+                },
+                {
+                  "val": "2",
+                  "offset": 44
+                },
+                {
+                  "val": "-",
+                  "offset": 48
+                }
+              ],
+              "location": "MainSteps.enter_the_values_with_desired_operator(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1100169201,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see the output as \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 39
+                }
+              ],
+              "location": "MainSteps.i_should_be_able_to_see_the_output_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify the calculation of two numbers",
+        "description": "",
+        "id": "verify-the-basic-operations-in-online-calculator;verify-the-calculation-of-two-numbers;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 716046500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6485814300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open chrome browser and start application",
+            "match": {
+              "location": "MainSteps.i_am_at_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4980004400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the values with desired operator \"8\" \"4\" \"*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 40
+                },
+                {
+                  "val": "4",
+                  "offset": 44
+                },
+                {
+                  "val": "*",
+                  "offset": 48
+                }
+              ],
+              "location": "MainSteps.enter_the_values_with_desired_operator(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1020502199,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see the output as \"32\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 39
+                }
+              ],
+              "location": "MainSteps.i_should_be_able_to_see_the_output_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify the calculation of two numbers",
+        "description": "",
+        "id": "verify-the-basic-operations-in-online-calculator;verify-the-calculation-of-two-numbers;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 609815500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7295901400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open chrome browser and start application",
+            "match": {
+              "location": "MainSteps.i_am_at_the_calculator_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4609482300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the values with desired operator \"8\" \"9\" \"+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 40
+                },
+                {
+                  "val": "9",
+                  "offset": 44
+                },
+                {
+                  "val": "+",
+                  "offset": 48
+                }
+              ],
+              "location": "MainSteps.enter_the_values_with_desired_operator(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 820135499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see the output as \"13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 39
+                }
+              ],
+              "location": "MainSteps.i_should_be_able_to_see_the_output_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the basic operations in online calculator",
+    "description": "I want to use this template for my feature file",
+    "id": "verify-the-basic-operations-in-online-calculator",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/FullScreenCalculator.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
